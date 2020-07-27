@@ -1,0 +1,6 @@
+[InternetShortcut]
+URL=javascript:(function(){ const myUrl = new URL(window.location.href);  const myCheck = myUrl.hostname; if (myCheck == "pbs.twimg.com") {  myUrl.searchParams.set("name","orig"); window.open(myUrl, "_self"); }else{ alert("Not a Twitter Image"); } })();
+IDList=
+HotKey=0
+IconFile=C:\Users\Zail\AppData\Local\Mozilla\Firefox\Profiles\ph2kf93m.default-release\shortcutCache\u6gdhqlbLRLefinglU8tQQ==.ico
+IconIndex=0
